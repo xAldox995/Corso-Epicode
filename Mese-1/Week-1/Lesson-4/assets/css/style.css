@@ -137,11 +137,12 @@ tr:nth-child(even) {
 
 .mail form input {
     border-bottom: dotted grey;
-    
+    margin-bottom: 10px;
 }
 .mail form button {
     background-color:rgb(54, 54, 253) ;
     color: white;
+    
     
 }
 /* FOOTER */
