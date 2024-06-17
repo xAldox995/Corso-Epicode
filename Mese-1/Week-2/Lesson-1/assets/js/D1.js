@@ -67,3 +67,9 @@ console.log(x - y);
 let name1 = 'john';
 let name2 = 'John';
 console.log(name1 == name2);
+
+name1=name1.toLowerCase();
+name2=name2.toLowerCase();
+
+const verify= name1 !== name2 ? 'name1 èdiverso da name2' : 'name1 è identico a neme2';
+console.log(verify);
