@@ -45,7 +45,8 @@ console.log(x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-const myName='Valzani'
+myName='Valzani'
+console.log(myName)
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
