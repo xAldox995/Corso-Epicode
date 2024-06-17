@@ -16,8 +16,8 @@ let tipo = 'Stringa insieme di caratteri tra gli apici o virgolette';
 let tipo2 = 'Numerico che può essere un numero intero o decimale';
 let tipo3 = 'Booleani sono veri (true) e falso (False)';
 let tipo4 = 'Null è una variabile senza valore intenzionale';
-let tipo5= 'Undefined è un dato che indica una variabile senza valore oppure non è indicata ';
-console.log('1-' + tipo + '2-' + tipo2 + '3-' + tipo3 + '4-' + tipo4+'5-'+tipo5);
+let tipo5 = 'Undefined è un dato che indica una variabile senza valore oppure non è indicata ';
+console.log('1-' + tipo + '2-' + tipo2 + '3-' + tipo3 + '4-' + tipo4 + '5-' + tipo5);
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
@@ -68,8 +68,8 @@ let name1 = 'john';
 let name2 = 'John';
 console.log(name1 == name2);
 
-name1=name1.toLowerCase();
-name2=name2.toLowerCase();
+name1 = name1.toLowerCase();
+name2 = name2.toLowerCase();
 
-const verify= name1 !== name2 ? 'name1 èdiverso da name2' : 'name1 è identico a neme2';
+const verify = name1 !== name2 ? 'name1 èdiverso da name2' : 'name1 è identico a neme2';
 console.log(verify);
