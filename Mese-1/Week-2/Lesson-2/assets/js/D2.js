@@ -3,14 +3,17 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let number1 =5
-let number2 =8
-if (number1<number2) {
-  console.log ('Il primo fattore è minore');
+let number1 = 5
+let number2 = 14
+if (number1 < number2) {
+  console.log('Il secondo fattore è maggiore');
+  document.getElementById('1answer').innerText = 'Il primo fattore è minore'
+} else if (number1 > number2) {
+  console.log('Il primo fattore è maggiore');
   document.getElementById('1answer').innerText = 'Il primo fattore è minore'
 } else {
-  console.log ('Il primo fattore è minore');
-  document.getElementById('1answer').innerText = 'Il primo fattore è minore'
+  console.log('I fattori sono uguali');
+  document.getElementById('1answer').innerText = 'I fattori sono uguali'
 }
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -29,13 +32,22 @@ if (number2 !== number1) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+if (number1 % 5 === 0) {
+  console.log('Il fattore è divisibile per 5');
+} else {
+  console.log('Il fattore non è divisibile per 5');
+}
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let number3 = 6
+if (number2 === 8 || number3 === 8 || number2 - number3 === 8 || number3 - number2 === 8 || number2 + number3 === 8) {
+  console.log('La risposta è 8');
+} else {
+  console.log('La risposta non è 8');
+}
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
@@ -43,6 +55,16 @@ if (number2 !== number1) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 48
+let spediziione= 10
+let checkout;
+
+if(totalShoppingCart > 50){
+  checkout= totalShoppingCart;
+} else{
+  checkout= totalShoppingCart + spediziione;
+}
+console.log(checkout)
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
