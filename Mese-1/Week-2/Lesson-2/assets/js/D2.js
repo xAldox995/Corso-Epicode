@@ -56,13 +56,13 @@ if (number2 === 8 || number3 === 8 || number2 - number3 === 8 || number3 - numbe
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let totalShoppingCart = 48
-let spediziione= 10
+let spediziione = 10
 let checkout;
 
-if(totalShoppingCart > 50){
-  checkout= totalShoppingCart;
-} else{
-  checkout= totalShoppingCart + spediziione;
+if (totalShoppingCart > 50) {
+  checkout = totalShoppingCart;
+} else {
+  checkout = totalShoppingCart + spediziione;
 }
 console.log(checkout)
 
@@ -72,7 +72,15 @@ console.log(checkout)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let sale = 0.2;
+totalShoppingCart = totalShoppingCart * (1 - sale);
 
+if (totalShoppingCart > 50) {
+  checkout = totalShoppingCart;
+} else {
+  checkout = totalShoppingCart + spediziione;
+}
+console.log(checkout)
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
@@ -80,7 +88,31 @@ console.log(checkout)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let num1 = 20
+let num2 = 10
+let num3 = 30
 
+if (num1 > num2) {
+  if (num3 > num1) {
+    console.log(num3, num1, num2)
+  } else {
+    if (num3 > num2) {
+      console.log(num1, num3, num2)
+    } else {
+      console.log(num1, num2, num3)
+    }
+  }
+} else {
+  if (num3 > num2) {
+    console.log(num3, num2, num1)
+  } else {
+    if (num3 > num1) {
+      console.log(num2, num3, num1)
+    } else {
+      console.log(num2, num1, num3)
+    }
+  }
+}
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
