@@ -119,12 +119,23 @@ if (num1 > num2) {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+let integer = 15;
+if (typeof (integer) === 'number') {
+  console.log('E un numero')
+} else {
+  console.log('Non è un numero')
+}
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+if (integer % 2 === 0) {
+  console.log('Il numero è pari')
+} else {
+  console.log('Il numero è dispari')
+}
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
@@ -138,7 +149,14 @@ if (num1 > num2) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+let val = 21
+if (val < 5) {
+    console.log("Meno di 5");
+  } else if (val < 10) {
+    console.log("Meno di 10");
+  } else {
+    console.log("Uguale a 10 o maggiore");
+  }
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -150,18 +168,23 @@ const me = {
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+me.city = 'Toronto';
+console.log(me);
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+delete me.lastName;
+console.log(me);
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+me.skills.length = me.skills.length -1;
+console.log(me);
 
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
@@ -169,8 +192,26 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+const myArray = [];
+
+myArray[0] = 1;
+myArray[1] = 2;
+myArray[2] = 3;
+myArray[3] = 4;
+myArray[4] = 5;
+myArray[5] = 6;
+myArray[6] = 7;
+myArray[7] = 8;
+myArray[8] = 9;
+myArray[9] = 10;
+
+console.log(myArray)
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+myArray[9] = 100;
+console.log(myArray);
