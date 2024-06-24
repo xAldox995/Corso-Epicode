@@ -13,8 +13,7 @@ function result(stringa1, stringa2, inizio1, fine1, inizio2, fine2) {
 let stringa1 = "Hello";
 let stringa2 = "World";
 
-let risultato = result(stringa1, stringa2, 0, 2, stringa1.length + stringa2.length -3, stringa1.length + stringa2.length
-);
+let risultato = result(stringa1, stringa2);
 console.log(risultato);
 /* ESERCIZIO 2 (for)
   Scrivi una funzione che torni un array di 10 elementi; ognuno di essi deve essere un valore random compreso tra 0 e 100 (incluso).
