@@ -4,10 +4,10 @@
 */
 console.log(" <-----Esrcizio 1----->");
 
-function result(stringa1, stringa2, inizio1, fine1, inizio2, fine2) {
+function result(stringa1, stringa2) {
   let parte1 = stringa1.slice(0, 2);
   let parte2 = stringa2.slice(-3);
-  return parte1 + parte2;
+  return (parte1 + parte2).toUpperCase();
 }
 
 let stringa1 = "Hello";
