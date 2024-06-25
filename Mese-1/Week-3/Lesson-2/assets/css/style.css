@@ -22,3 +22,11 @@ footer {
 .myHeading {
   color: #ff00d6;
 }
+
+.backGreen {
+    background-color: green;
+}
+
+.pointer {
+    cursor: pointer;
+}
