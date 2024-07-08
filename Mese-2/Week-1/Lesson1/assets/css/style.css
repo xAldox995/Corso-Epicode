@@ -301,11 +301,11 @@ footer a {
 
     aside {
         vertical-align: middle;
-        margin: 0 10rem;
+        margin: 0 15rem;
     }
 
     aside div {
-        padding: 15px;
+        padding: 30px;
         display: inline-block;
         width: 30%;
     }
