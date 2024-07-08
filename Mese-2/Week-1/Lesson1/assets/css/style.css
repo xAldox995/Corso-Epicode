@@ -317,7 +317,11 @@ footer a {
 
 @media print {
    header, section, iframe, aside, footer{
-        visibility: hidden;
+        visibility:hidden;
+    }
+
+    main {
+        margin: 0;
     }
 
     header div {
