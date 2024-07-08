@@ -272,7 +272,10 @@ footer a {
     header div p {
         float: left;
         margin-right: 17rem;
-        
+    }
+
+    header div img {
+        width: 150px;
     }
 
 
