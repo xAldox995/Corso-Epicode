@@ -314,3 +314,17 @@ footer a {
         display: block;
     }
 }
+
+@media print {
+   header, section, iframe, aside, footer{
+        visibility: hidden;
+    }
+
+    header div {
+        display: inline;
+    }
+    tr th {
+        color: black;
+    }
+}
+
