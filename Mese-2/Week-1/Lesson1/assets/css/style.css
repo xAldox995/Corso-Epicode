@@ -319,7 +319,7 @@ footer a {
 
 @media print {
    header, section, iframe, aside, footer{
-        visibility:hidden;
+        display: none;
     }
 
     main {
