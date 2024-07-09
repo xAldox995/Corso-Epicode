@@ -427,7 +427,11 @@ footer a {
 
 
 @media screen and (min-width: 576px) {
-  h1 {
+header {
+  position: sticky;
+  top: 0;
+}
+  header h1 {
     position: relative;
   }
 
@@ -448,7 +452,7 @@ footer a {
     top: -20px;
     height: 40px;
     border: 2px solid black;
-   }
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -462,7 +466,21 @@ footer a {
     opacity: 70%;
     width: 80%;
   }
+
+  section {
+    position: relative;
+    height: 200px;
+  }
+
+  section h2 {
+    position: absolute;
+    top: -20px;
+    left: 35px;
+    height: 40px;
+    border: 2px solid black;
+  }
 }
+
 
 @media screen and (min-width: 1200px) {
   h1 {
@@ -476,4 +494,29 @@ footer a {
     opacity: 70%;
     width: 45%;
   }
+
+  section {
+    position: relative;
+    height: 267px;
+  }
+
+  section h2 {
+    position: absolute;
+    top: -20px;
+    height: 40px;
+    border: 2px solid black;
+  }
+
+  section p {
+    position: absolute;
+    top: 60px;
+  }
+
+  section form {
+    position: absolute;
+    top: 160px;
+  }
+  form {
+    display: inline;
+  };
 }
