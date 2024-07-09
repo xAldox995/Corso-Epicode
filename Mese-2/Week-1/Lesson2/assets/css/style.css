@@ -430,6 +430,7 @@ footer a {
 header {
   position: sticky;
   top: 0;
+  z-index: 99;
 }
   header h1 {
     position: relative;
@@ -516,7 +517,8 @@ header {
     position: absolute;
     top: 160px;
   }
-  form {
-    display: inline;
+  fieldset  input,button{
+    width: 48%;
+    
   };
 }
