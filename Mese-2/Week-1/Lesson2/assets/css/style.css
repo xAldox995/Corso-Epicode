@@ -425,6 +425,18 @@ footer a {
   float: left;
 }
 
+.clearfix h1 {
+  position: relative;
+}
+
+.clearfix img#underline {
+  position: absolute;
+  top: 220px;
+  right: 320px;
+  opacity: 70%;
+  width: 25%;
+}
+
 @media screen and (min-width: 576px) {
   h1 {
     position: relative;
