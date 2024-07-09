@@ -456,6 +456,16 @@ header {
   }
 }
 
+aside div{
+  position: relative;
+}
+p.icon1 i {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  opacity: 50%;
+}
+
 @media screen and (min-width: 768px) {
   h1 {
     position: relative;
