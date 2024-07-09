@@ -447,6 +447,7 @@ footer a {
     position: absolute;
     top: -20px;
     height: 40px;
+    border: 2px solid black;
    }
 }
 
