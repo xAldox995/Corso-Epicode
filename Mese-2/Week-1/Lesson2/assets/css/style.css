@@ -510,15 +510,18 @@ header {
 
   section p {
     position: absolute;
-    top: 60px;
+    top: 40px;
   }
 
   section form {
     position: absolute;
-    top: 160px;
+    top: 180px;
+    max-width: 100%;
   }
-  fieldset  input,button{
-    width: 48%;
-    
-  };
+  fieldset  input{
+    width: 300px;
+    };
+    fieldset button{
+      width: 150px;
+    }
 }
