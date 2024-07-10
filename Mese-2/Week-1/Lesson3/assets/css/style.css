@@ -69,17 +69,17 @@ body {
     main {
         padding: 20px;
     }
-    
+
     .best-sellers {
         text-align: center;
     }
-    
+
     .best-sellers h2 {
         font-size: 24px;
         color: #8b4513;
         margin-bottom: 20px;
     }
-    
+
     .product {
         background-color: #fdf3d2;
         border-radius: 20px;
@@ -89,18 +89,18 @@ body {
         align-items: center;
         margin-bottom: 10%;
     }
-    
+
     .product img {
         width: 100%;
         max-width: 3500px;
         border-radius: 20px 20px 0px 0px;
         flex-basis: 50%;
     }
-    
+
     .product p {
         margin: 10px 0;
     }
-    
+
     .product button {
         background-color: #f1c40f;
         border: none;
@@ -109,37 +109,49 @@ body {
         font-size: 16px;
         cursor: pointer;
     }
-    
+
     .latest-news {
-        background-color: #fff6e1;
         padding: 20px;
         border-radius: 20px;
         margin-top: 20px;
     }
-    
+
     .latest-news h2 {
         font-size: 24px;
         color: #8b4513;
         margin-bottom: 20px;
         text-align: center;
     }
-    
+
     .latest-news article {
         margin-bottom: 20px;
+        background-color: #fdf3d2;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
     }
-    
-    .latest-news h3 {
-        font-size: 20px;
+
+    article h3 {
+        font-size: 1.5rem;
         color: #64300d;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
+        text-align: left;
     }
-    
-    .latest-news p {
+
+    article p {
         margin-bottom: 10px;
+        font-size: 1rem;
+        text-align: left;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
     }
-    
-    .latest-news img {
+
+    p img {
         width: 100%;
-        max-width: 300px;
+        max-width: 250px;
+        margin-bottom: 30px;
     }
-}
