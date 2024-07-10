@@ -1,0 +1,8 @@
+@media screen and (min-width: 406PX) {
+    header {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
