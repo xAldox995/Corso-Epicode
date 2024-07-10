@@ -129,19 +129,17 @@ body {
         border-radius: 15px;
         display: flex;
         flex-direction: column;
-        max-width: 350px;
-        width: 100%;
     }
 
     article h3 {
         font-size: 1.5rem;
         color: #64300d;
-        margin-bottom: 10px;
+        margin: 10px 5px;
         text-align: left;
     }
 
     article p {
-        margin-bottom: 20px;
+        margin: 10px 5px;
         font-size: 1rem;
         text-align: left;
         display: flex;
@@ -150,7 +148,8 @@ body {
     }
 
     p img {
-        width: 75%;
+        width: 60%;
         max-width: 350px;
+        margin-bottom: 20px;
     }
 }
