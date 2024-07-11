@@ -50,55 +50,55 @@
 .postit:nth-of-type(1) {
     transform-origin: bottom;
     transform: rotate(-2deg);
-    animation: postitAnimation1 1.6s linear;
+    animation: postitAnimation1 1s linear;
 }
 
 .postit:nth-of-type(2) {
     transform-origin: bottom;
     transform: rotate(2deg);
-    animation: postitAnimation2 1.7s linear;
+    animation: postitAnimation2 1.1s linear;
 }
 
 
 .postit:nth-of-type(3) {
     transform-origin: bottom;
     transform: rotate(-3deg);
-    animation: postitAnimation3 1.8s linear;
+    animation: postitAnimation3 1.2s linear;
 }
 
 
 .postit:nth-of-type(4) {
     transform-origin: bottom;
     transform: rotate(2deg);
-    animation: postitAnimation4 1.9s linear;
+    animation: postitAnimation4 1.3s linear;
 }
 
 
 .postit:nth-of-type(5) {
     transform-origin: bottom;
     transform: rotate(-2deg);
-    animation: postitAnimation5 2s linear;
+    animation: postitAnimation5 1.4s linear;
 }
 
 
 .postit:nth-of-type(6) {
     transform-origin: bottom;
     transform: rotate(-4deg);
-    animation: postitAnimation6 2.1s linear;
+    animation: postitAnimation6 1.5s linear;
 }
 
 
 .postit:nth-of-type(7) {
     transform-origin: bottom;
     transform: rotate(-3deg);
-    animation: postitAnimation7 2.2s linear;
+    animation: postitAnimation7 1.6s linear;
 }
 
 
 .postit:nth-of-type(8) {
     transform-origin: bottom;
     transform: rotate(2deg);
-    animation: postitAnimation8 2.3s linear;
+    animation: postitAnimation8 1.7s linear;
 }
 
 
