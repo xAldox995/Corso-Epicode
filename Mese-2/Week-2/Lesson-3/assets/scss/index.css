@@ -6,8 +6,28 @@
 }
 
 /*COLORE TESTO*/
+* {
+  color: #f4f4f4;
+}
+
 /*COLORE BOTTONI*/
+.btnBlue {
+  background-color: #0e6cff;
+}
+
+.btnOrange {
+  background-color: #ff8700;
+}
+
+.btnGreen {
+  background-color: #4caf50;
+}
+
 /*COLORE SEZIONE HERO*/
+header div {
+  background-color: #640fc5;
+}
+
 * {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
