@@ -10,7 +10,7 @@ $my-spacing: (
 
 
 
-@mixin class-generator($propety) {
+@mixin space-element($propety) {
     @each $size, $value in $my-spacing {
         .#{$propety}-block-#{$size} {
             #{$propety}-top: #{$value};
@@ -24,5 +24,5 @@ $my-spacing: (
     }
 }
 
-@include class-generator('margin');
-@include class-generator('padding');
+@include space-element('margin');
+@include space-element('padding');

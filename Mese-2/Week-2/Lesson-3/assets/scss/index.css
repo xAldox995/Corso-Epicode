@@ -10,19 +10,23 @@
   color: #f4f4f4;
 }
 
-/*COLORE BOTTONI*/
+/*COLORE BOTTONI
+
+$button-blue: #0e6cff;
+$button-orange: #ff8700;
+$botton-green: #4caf50;
+
 .btnBlue {
-  background-color: #0e6cff;
+    background-color: $button-blue;
 }
 
 .btnOrange {
-  background-color: #ff8700;
+    background-color: $button-orange;
 }
 
-.btnGreen {
-  background-color: #4caf50;
-}
-
+.btnGreen{
+    background-color: $botton-green;
+}*/
 /*COLORE SEZIONE HERO*/
 header div {
   background-color: #640fc5;
@@ -166,4 +170,16 @@ header div {
 .padding-inline-xxl {
   padding-left: 30px;
   padding-right: 30px;
+}
+
+.btn-primary {
+  background-color: #0e6cff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
+.btn-tertiary {
+  background-color: #4caf50;
 }/*# sourceMappingURL=index.css.map */
