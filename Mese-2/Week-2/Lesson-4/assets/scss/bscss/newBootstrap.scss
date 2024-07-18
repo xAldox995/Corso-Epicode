@@ -1,0 +1,15 @@
+@import './functions';
+@import './variables';
+
+/*Creo nuove variabili per i nuovi colori*/
+$new-hero: #7550fe;
+$new-success: #1acb98;
+
+$new-colors: (
+    'hero': $new-hero,
+    'success': $new-success,
+);
+
+$theme-colors: map-merge($theme-colors, $new-colors);
+
+@import './bootstrap.scss';
