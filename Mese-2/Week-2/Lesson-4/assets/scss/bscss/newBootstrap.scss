@@ -59,7 +59,7 @@ $new-position-values: (
 
 $position-values: map-merge($position-values, $new-position-values);
 
-$utilities: map-merge($utilities,
+/*$utilities: map-merge($utilities,
     ("width": map-merge(map-get($utilities, "width"),
         (values: map-merge(map-get(map-get($utilities, "width"), "values"),
             (5: 5%,
@@ -86,9 +86,9 @@ $utilities: map-merge($utilities,
           ),
         ),
       ),
-    ));
+    ));*/
 
-    $utilities: map-merge($utilities,
+    /*$utilities: map-merge($utilities,
         ("height": map-merge(map-get($utilities, "height"),
                 (values: map-merge(map-get(map-get($utilities, "height"), "values"),
                         (5: 5%,
@@ -115,12 +115,8 @@ $utilities: map-merge($utilities,
                     ),
                 ),
             ),
-        ));
+        ));*/
 
 
 // $headings-font-family: "Inter", sans-serif;
-
-@import "scss/bootstrap.scss";
-
-
 @import './bootstrap.scss';
